@@ -22,7 +22,7 @@ https://drs-system.netlify.app/
   
 ## Developer
 
-- [@kafle1](https://www.github.com/kafle1) (Backend)
+- [@kafle1](https://www.github.com/kafle1)
 
 ## Support / Contact
 
