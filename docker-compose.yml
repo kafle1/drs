@@ -1,0 +1,155 @@
+version: '3.8'
+
+services:
+  # PostgreSQL Database
+  db:
+    image: postgres:15-alpine
+    container_name: drs-postgres
+    environment:
+      POSTGRES_DB: drs_db
+      POSTGRES_USER: drs_user
+      POSTGRES_PASSWORD: drs_password
+    volumes:
+      - postgres_data:/var/lib/postgresql/data
+      - ./docker/init.sql:/docker-entrypoint-initdb.d/init.sql
+    ports:
+      - "5432:5432"
+    networks:
+      - drs-network
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U drs_user -d drs_db"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Redis for caching (optional)
+  redis:
+    image: redis:7-alpine
+    container_name: drs-redis
+    ports:
+      - "6379:6379"
+    networks:
+      - drs-network
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 10s
+      timeout: 5s
+      retries: 5
+
+  # Backend API
+  backend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: backend-builder
+    container_name: drs-backend
+    environment:
+      - DATABASE_URL=postgresql://drs_user:drs_password@db:5432/drs_db
+      - REDIS_URL=redis://redis:6379
+      - SECRET_KEY=your-super-secret-key-change-in-production
+      - ALGORITHM=HS256
+      - ACCESS_TOKEN_EXPIRE_MINUTES=30
+      - UPLOAD_DIR=/app/uploads
+      - LOG_LEVEL=INFO
+    volumes:
+      - ./backend:/app/backend
+      - uploads:/app/uploads
+      - logs:/app/logs
+    ports:
+      - "8000:8000"
+    networks:
+      - drs-network
+    depends_on:
+      db:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:8000/"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    command: >
+      sh -c "
+        cd /app/backend &&
+        PYTHONPATH=/app/backend/src uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+      "
+
+  # Frontend
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+      target: frontend-builder
+    container_name: drs-frontend
+    environment:
+      - REACT_APP_API_URL=http://localhost:8000
+      - REACT_APP_WS_URL=ws://localhost:8000
+    ports:
+      - "3000:3000"
+    networks:
+      - drs-network
+    depends_on:
+      - backend
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:3000"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    command: >
+      sh -c "
+        cd /app/frontend &&
+        npm start
+      "
+
+  # Nginx Reverse Proxy (Production)
+  nginx:
+    image: nginx:alpine
+    container_name: drs-nginx
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./docker/nginx.conf:/etc/nginx/nginx.conf:ro
+      - ./docker/ssl:/etc/ssl/certs:ro
+      - logs:/var/log/nginx
+    networks:
+      - drs-network
+    depends_on:
+      - backend
+      - frontend
+    profiles:
+      - production
+
+  # MinIO for file storage (alternative to local storage)
+  minio:
+    image: minio/minio:latest
+    container_name: drs-minio
+    environment:
+      MINIO_ACCESS_KEY: drs_access_key
+      MINIO_SECRET_KEY: drs_secret_key
+    volumes:
+      - minio_data:/data
+    ports:
+      - "9000:9000"
+      - "9001:9001"
+    networks:
+      - drs-network
+    command: server /data --console-address ":9001"
+    healthcheck:
+      test: ["CMD", "curl", "-f", "http://localhost:9000/minio/health/live"]
+      interval: 30s
+      timeout: 10s
+      retries: 3
+    profiles:
+      - storage
+
+volumes:
+  postgres_data:
+  uploads:
+  logs:
+  minio_data:
+
+networks:
+  drs-network:
+    driver: bridge

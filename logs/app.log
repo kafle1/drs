@@ -1,0 +1,9 @@
+2025-09-07 19:29:27,215 - uvicorn.error - INFO - Started server process [99911] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 19:29:27,215 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 19:29:27,216 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 19:37:49,231 - uvicorn.error - INFO - Started server process [25703] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 19:37:49,231 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 19:37:49,231 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 19:38:17,232 - uvicorn.error - INFO - Started server process [27730] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 19:38:17,232 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 19:38:17,233 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62

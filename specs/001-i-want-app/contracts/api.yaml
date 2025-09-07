@@ -1,0 +1,450 @@
+openapi: 3.0.3
+info:
+  title: Ball Tracking DRS API
+  version: 1.0.0
+  description: API for ball tracking and decision review system
+  contact:
+    name: DRS Development Team
+  license:
+    name: MIT
+
+servers:
+  - url: https://api.drs-app.com/v1
+    description: Production server
+  - url: http://localhost:8000
+    description: Development server
+
+security:
+  - bearerAuth: []
+
+paths:
+  # Authentication endpoints
+  /auth/register:
+    post:
+      summary: Register a new user
+      tags: [Authentication]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserRegister'
+      responses:
+        '201':
+          description: User registered successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '400':
+          description: Invalid registration data
+        '409':
+          description: User already exists
+
+  /auth/login:
+    post:
+      summary: User login
+      tags: [Authentication]
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/UserLogin'
+      responses:
+        '200':
+          description: Login successful
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/AuthResponse'
+        '401':
+          description: Invalid credentials
+
+  /auth/me:
+    get:
+      summary: Get current user information
+      tags: [Authentication]
+      security:
+        - bearerAuth: []
+      responses:
+        '200':
+          description: User information
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/User'
+        '401':
+          description: Unauthorized
+
+  # Video endpoints
+  /videos/upload:
+    post:
+      summary: Upload a video for analysis
+      tags: [Videos]
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          multipart/form-data:
+            schema:
+              type: object
+              properties:
+                file:
+                  type: string
+                  format: binary
+                  description: Video file (mp4, mov, avi, max 100MB)
+                title:
+                  type: string
+                  description: Optional video title
+                  maxLength: 255
+      responses:
+        '201':
+          description: Video uploaded successfully
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VideoResponse'
+        '400':
+          description: Invalid file format or size
+        '401':
+          description: Unauthorized
+        '413':
+          description: File too large
+
+  /videos/{videoId}/track:
+    post:
+      summary: Start ball tracking analysis
+      tags: [Videos]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: videoId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: Unique identifier of the video
+      responses:
+        '202':
+          description: Tracking started
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TrackingResponse'
+        '404':
+          description: Video not found
+        '409':
+          description: Tracking already in progress
+        '401':
+          description: Unauthorized
+
+  /videos/{videoId}/trajectory:
+    get:
+      summary: Get ball trajectory data
+      tags: [Videos]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: videoId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: Unique identifier of the video
+      responses:
+        '200':
+          description: Trajectory data
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/TrajectoryResponse'
+        '404':
+          description: Trajectory not available
+        '401':
+          description: Unauthorized
+
+  /videos/{videoId}:
+    get:
+      summary: Get video details
+      tags: [Videos]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: videoId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: Unique identifier of the video
+      responses:
+        '200':
+          description: Video details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/VideoResponse'
+        '404':
+          description: Video not found
+        '401':
+          description: Unauthorized
+
+  /videos:
+    get:
+      summary: List user videos
+      tags: [Videos]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+          description: Page number
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+          description: Number of videos per page
+      responses:
+        '200':
+          description: List of videos
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  videos:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/VideoResponse'
+                  total:
+                    type: integer
+                  page:
+                    type: integer
+                  pages:
+                    type: integer
+        '401':
+          description: Unauthorized
+
+  # Review endpoints
+  /reviews:
+    post:
+      summary: Create a new review session
+      tags: [Reviews]
+      security:
+        - bearerAuth: []
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/CreateReviewRequest'
+      responses:
+        '201':
+          description: Review session created
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReviewResponse'
+        '400':
+          description: Invalid request
+        '401':
+          description: Unauthorized
+        '404':
+          description: Video not found
+    get:
+      summary: List user reviews
+      tags: [Reviews]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: page
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            default: 1
+          description: Page number
+        - name: limit
+          in: query
+          schema:
+            type: integer
+            minimum: 1
+            maximum: 100
+            default: 20
+          description: Number of reviews per page
+      responses:
+        '200':
+          description: List of reviews
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  reviews:
+                    type: array
+                    items:
+                      $ref: '#/components/schemas/ReviewResponse'
+                  total:
+                    type: integer
+                  page:
+                    type: integer
+                  pages:
+                    type: integer
+        '401':
+          description: Unauthorized
+
+  /reviews/{reviewId}:
+    get:
+      summary: Get review session details
+      tags: [Reviews]
+      security:
+        - bearerAuth: []
+      parameters:
+        - name: reviewId
+          in: path
+          required: true
+          schema:
+            type: string
+            format: uuid
+          description: Unique identifier of the review
+      responses:
+        '200':
+          description: Review details
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/ReviewResponse'
+        '404':
+          description: Review not found
+        '401':
+          description: Unauthorized  # Health check
+  /:
+    get:
+      summary: API health check
+      tags: [Health]
+      responses:
+        '200':
+          description: API is healthy
+          content:
+            application/json:
+              schema:
+                type: object
+                properties:
+                  message:
+                    type: string
+                    example: "DRS Ball Tracking API"
+                  version:
+                    type: string
+                    example: "1.0.0"
+                  status:
+                    type: string
+                    example: "healthy"
+        '400':
+          description: Invalid request
+
+components:
+  schemas:
+    VideoResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        status:
+          type: string
+          enum: [uploaded, processing, processed, failed]
+        upload_date:
+          type: string
+          format: date-time
+
+    TrackingResponse:
+      type: object
+      properties:
+        video_id:
+          type: string
+          format: uuid
+        status:
+          type: string
+          enum: [processing]
+        estimated_completion:
+          type: string
+          format: date-time
+
+    TrajectoryResponse:
+      type: object
+      properties:
+        video_id:
+          type: string
+          format: uuid
+        points:
+          type: array
+          items:
+            type: object
+            properties:
+              x:
+                type: number
+              y:
+                type: number
+              z:
+                type: number
+              t:
+                type: number
+        confidence_score:
+          type: number
+          minimum: 0
+          maximum: 1
+
+    CreateReviewRequest:
+      type: object
+      required:
+        - video_id
+      properties:
+        video_id:
+          type: string
+          format: uuid
+        notes:
+          type: string
+
+    ReviewResponse:
+      type: object
+      properties:
+        id:
+          type: string
+          format: uuid
+        video_id:
+          type: string
+          format: uuid
+        decisions:
+          type: array
+          items:
+            type: object
+            properties:
+              type:
+                type: string
+                enum: [lbw, run_out, caught, other]
+              outcome:
+                type: string
+              timestamp:
+                type: number
+              confidence:
+                type: number
+        created_at:
+          type: string
+          format: date-time
+
+  securitySchemes:
+    bearerAuth:
+      type: http
+      scheme: bearer
+      bearerFormat: JWT
