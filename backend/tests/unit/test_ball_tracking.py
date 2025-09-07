@@ -23,8 +23,10 @@ class TestBallTrackingService:
         assert self.service.max_radius == 20
 
     @patch('cv2.VideoCapture')
-    def test_track_ball_with_invalid_video_path(self, mock_cap):
+    @patch('os.path.exists')
+    def test_track_ball_with_invalid_video_path(self, mock_exists, mock_cap):
         """Test tracking with non-existent video file"""
+        mock_exists.return_value = True
         mock_cap.return_value.isOpened.return_value = False
 
         result = self.service.track_ball("nonexistent.mp4")
