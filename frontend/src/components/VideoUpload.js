@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import { Button, Box, Typography, LinearProgress } from '@mui/material';
-import axios from 'axios';
+import api from '../api/client';
 
 const VideoUpload = ({ onVideoUploaded }) => {
   const [uploading, setUploading] = useState(false);
@@ -29,7 +29,7 @@ const VideoUpload = ({ onVideoUploaded }) => {
     formData.append('file', file);
 
     try {
-      const response = await axios.post('/videos/upload', formData, {
+      const response = await api.post('/videos/upload', formData, {
         onUploadProgress: (progressEvent) => {
           const percentCompleted = Math.round(
             (progressEvent.loaded * 100) / progressEvent.total

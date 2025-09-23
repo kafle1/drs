@@ -1,9 +1,9 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import {
   Box, Button, Typography, Paper, List, ListItem, ListItemText,
   TextField, Select, MenuItem, FormControl, InputLabel
 } from '@mui/material';
-import axios from 'axios';
+import api from '../api/client';
 
 const DECISION_TYPES = ['lbw', 'run_out', 'caught', 'other'];
 const OUTCOMES = ['out', 'not_out', 'no_ball', 'wide'];
@@ -17,22 +17,22 @@ const ReviewInterface = ({ videoId, onReviewComplete }) => {
     timestamp: 0,
     confidence: 0.5
   });
-  const [trajectoryData, setTrajectoryData] = useState(null);
+
+  const fetchTrajectory = useCallback(async () => {
+    try {
+      const response = await api.get(`/videos/${videoId}/trajectory`);
+      // For now, we'll just log the trajectory data
+      console.log('Trajectory data:', response.data);
+    } catch (error) {
+      console.error('Failed to fetch trajectory:', error);
+    }
+  }, [videoId]);
 
   useEffect(() => {
     if (videoId) {
       fetchTrajectory();
     }
-  }, [videoId]);
-
-  const fetchTrajectory = async () => {
-    try {
-      const response = await axios.get(`/videos/${videoId}/trajectory`);
-      setTrajectoryData(response.data);
-    } catch (error) {
-      console.error('Failed to fetch trajectory:', error);
-    }
-  };
+  }, [videoId, fetchTrajectory]);
 
   const addDecision = () => {
     if (currentDecision.type && currentDecision.outcome) {
@@ -52,7 +52,7 @@ const ReviewInterface = ({ videoId, onReviewComplete }) => {
 
   const submitReview = async () => {
     try {
-      const response = await axios.post('/reviews', {
+      const response = await api.post('/reviews', {
         video_id: videoId,
         decisions,
         notes

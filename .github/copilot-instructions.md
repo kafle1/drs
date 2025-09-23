@@ -1,70 +1,147 @@
 # GitHub Copilot Instructions for DRS Project
 
 ## Project Overview
-This is a web-based Decision Review System (DRS) for ball tracking in sports, built with Python backend and React frontend.
+Web-based Decision Review System (DRS) for ball tracking in sports. Upload videos, process with computer vision, visualize 3D trajectories, and conduct review sessions.
+
+## Architecture
+- **Backend**: FastAPI with service layer pattern (`api/` routes → `services/` business logic → `models/` data)
+- **Frontend**: React with component-based architecture using Material-UI
+- **Data Flow**: Video Upload → Ball Tracking (OpenCV) → Trajectory Storage → 3D Visualization (Three.js)
+- **Database**: SQLAlchemy ORM, SQLite for development, PostgreSQL for production
 
 ## Technology Stack
-- **Backend**: Python 3.11, FastAPI, PostgreSQL, OpenCV
-- **Frontend**: React, Three.js, Material-UI
-- **Infrastructure**: Docker, AWS S3, Redis
+- **Backend**: Python 3.11, FastAPI, OpenCV, SQLAlchemy, PostgreSQL
+- **Frontend**: React 18, Three.js, Material-UI, Axios
+- **Infrastructure**: Docker, Redis (caching), Nginx (production proxy)
 
-## Key Libraries and Frameworks
-- **FastAPI**: For REST API development
-- **OpenCV**: Computer vision for ball tracking
-- **Three.js**: 3D visualization of trajectories
-- **PostgreSQL**: Data persistence
-- **React**: Frontend framework
-- **Material-UI**: UI component library
+## Critical Development Workflows
 
-## Development Principles
-- Test-First Development (TDD)
-- Library-First Architecture
-- Clean, minimal, modern UI
-- Robust core engine
-- Cross-platform compatibility
+### Getting Started
+```bash
+make setup              # Install deps, build containers, start services
+make dev                # Run backend (port 8000) + frontend (port 3000)
+make docker-up          # Start full containerized environment
+```
 
-## Recent Changes
-- Added ball tracking with OpenCV
-- Implemented 3D trajectory visualization with Three.js
-- Created FastAPI backend structure
-- Set up PostgreSQL data models
+### Testing & Quality
+```bash
+make test               # Run all tests (backend + frontend)
+make test-backend       # Python tests with coverage
+make test-frontend      # React tests
+make lint               # Code formatting (black, isort, eslint)
+```
 
-## Coding Standards
-- Use type hints in Python
-- Follow REST API conventions
-- Implement proper error handling
-- Write comprehensive tests
-- Maintain clean, readable code
+### File Upload Pattern
+- Videos stored in `uploads/` with UUID prefix: `{uuid}_{original_filename}`
+- Validate file types: `.mp4`, `.mov`, `.avi` (max 500MB)
+- Mount uploads volume in Docker for persistence
 
-## Common Patterns
-- Async/await for I/O operations
-- Dependency injection in FastAPI
-- Component-based React architecture
-- JSON schemas for API contracts
+## Key Code Patterns
+
+### Backend Service Layer
+```python
+# api/videos.py - Route handlers
+@router.post("/upload")
+async def upload_video(file: UploadFile = File(...), db: Session = Depends(get_db)):
+    video_service = VideoService(db)
+    video = video_service.create_video(user_id, filename, file_path, file_size)
+
+# services/video_service.py - Business logic
+class VideoService:
+    def create_video(self, user_id, filename, file_path, file_size):
+        # Validation, database operations, file handling
+```
+
+### Ball Tracking Implementation
+```python
+# services/ball_tracking_service.py
+class BallTrackingService:
+    def track_ball(self, video_path: str) -> Dict[str, Any]:
+        # OpenCV video processing with Kalman filtering
+        # Returns trajectory points with timestamps and 3D coordinates
+```
+
+### React Component Structure
+```javascript
+// App.js - Main orchestration
+function App() {
+  const [uploadedVideo, setUploadedVideo] = useState(null);
+  const [trajectoryData, setTrajectoryData] = useState(null);
+  // API calls, state management, component coordination
+}
+```
+
+### Database Configuration
+```python
+# database.py
+DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./drs.db")
+engine = create_engine(DATABASE_URL, connect_args={"check_same_thread": False})
+```
+
+## Project-Specific Conventions
+
+### File Organization
+- Feature branches use `specs/{branch-name}/` for documentation
+- Backend: `src/{api,models,services}/` with `main.py` entry point
+- Frontend: Standard `src/components/` structure
+- Scripts in `scripts/` for automation (setup, feature management)
+
+### API Patterns
+- RESTful endpoints with `/videos`, `/reviews`, `/auth` prefixes
+- File uploads use `UploadFile` with validation
+- JWT auth middleware (currently optional in development)
+- CORS configured for React dev server (`http://localhost:3000`)
+
+### Error Handling
+- HTTPException for API errors with descriptive messages
+- File validation (type, size) before processing
+- Database connection error handling in services
+
+### Testing Approach
+- Backend: pytest with async support and coverage reporting
+- Frontend: React Testing Library
+- Integration tests for API endpoints
+- E2E tests with Cypress (planned)
+
+## Integration Points
+
+### Video Processing Pipeline
+1. Upload video file with UUID naming
+2. Extract frames using OpenCV
+3. Apply ball detection algorithms (color thresholding, contour detection)
+4. Kalman filtering for trajectory smoothing
+5. Store trajectory data as JSON with timestamps and 3D coordinates
+
+### 3D Visualization
+- Three.js scene with trajectory points
+- Interactive camera controls
+- Real-time rendering of ball path
+- Integration with video playback timing
+
+### Database Models
+- `Video`: File metadata, user association, processing status
+- `Trajectory`: Ball position data with frame timestamps
+- `ReviewSession`: Decision review workflow
+- `User`: Authentication and permissions
 
 ## Performance Considerations
-- Optimize video processing algorithms
-- Implement caching for trajectory data
-- Use lazy loading for large datasets
-- Ensure responsive 3D rendering
+- Video processing is CPU-intensive; consider async processing
+- Large video files (500MB limit) require efficient streaming
+- Trajectory data cached in Redis for quick access
+- 3D rendering optimized for smooth interaction
 
-## Security Best Practices
-- Input validation and sanitization
-- JWT authentication
-- CORS configuration
-- Secure file upload handling
+## Security Patterns
+- File upload validation (type, size, content)
+- JWT tokens for API authentication
+- CORS properly configured for frontend origin
+- Input sanitization in API endpoints
 
-## Testing Strategy
-- Unit tests for individual functions
-- Integration tests for API endpoints
-- End-to-end tests for user workflows
-- Performance tests for video processing
-
-## Deployment
-- Docker containerization
-- CI/CD with GitHub Actions
-- Cloud deployment on AWS/GCP
-- Monitoring with Prometheus
+## Deployment Architecture
+- Docker multi-stage builds (separate for backend/frontend)
+- Nginx reverse proxy for production
+- PostgreSQL with health checks
+- Redis for caching layer
+- Volume mounts for uploads and logs persistence
 
 ## Manual Additions
 <!-- Add any project-specific instructions below this marker -->

@@ -22,7 +22,7 @@ dev: ## Start both backend and frontend development servers
 	@make -j2 dev-backend dev-frontend
 
 dev-backend: ## Start backend development server
-	cd backend && PYTHONPATH=src uvicorn main:app --host 0.0.0.0 --port 8000 --reload
+	cd backend && PYTHONPATH=src uvicorn src.main:app --host 0.0.0.0 --port 8000 --reload
 
 dev-frontend: ## Start frontend development server
 	cd frontend && npm start

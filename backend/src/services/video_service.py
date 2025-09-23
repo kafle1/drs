@@ -4,6 +4,7 @@ from models.user import User
 import uuid
 from typing import Optional
 import logging
+from datetime import datetime
 
 logger = logging.getLogger(__name__)
 
@@ -39,7 +40,6 @@ class VideoService:
         if video:
             video.status = status
             if status == "processing":
-                from datetime import datetime
                 video.processing_started_at = datetime.utcnow()
             elif status == "processed":
                 video.processing_completed_at = datetime.utcnow()

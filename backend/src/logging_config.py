@@ -42,6 +42,11 @@ LOGGING_CONFIG = {
             "level": "INFO",
             "handlers": ["console", "file"],
             "propagate": False
+        },
+        "services.ball_tracking_service": {
+            "level": "DEBUG",
+            "handlers": ["console", "file"],
+            "propagate": False
         }
     }
 }

@@ -1,5 +1,4 @@
 from sqlalchemy import Column, Float, Boolean, ForeignKey, Text, DateTime, String, JSON
-from sqlalchemy.dialects.postgresql import UUID, JSONB
 from sqlalchemy.sql import func
 import uuid
 
@@ -14,6 +13,7 @@ class Trajectory(Base):
     timestamps = Column(JSON)  # Array of timestamps
     confidence_score = Column(Float)
     ball_detected = Column(Boolean, default=False)
+    additional_data = Column(JSON)  # Additional DRS data (stumps, players, LBW analysis)
     created_at = Column(DateTime(timezone=True), server_default=func.now())
 
     def __repr__(self):

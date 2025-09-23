@@ -8,3 +8,1048 @@
 2025-09-07 19:36:52,126 - uvicorn.error - INFO - Started server process [22220] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
 2025-09-07 19:36:52,127 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
 2025-09-07 19:36:52,127 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 20:15:31,956 - uvicorn.error - INFO - Started server process [90676] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:15:31,956 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:15:31,957 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:24:02,359 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:24:02,463 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:24:02,464 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:24:02,464 - uvicorn.error - INFO - Finished server process [90676] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:24:08,357 - uvicorn.error - INFO - Started server process [2726] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:24:08,357 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:24:08,357 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:26:12,571 - uvicorn.error - INFO - Started server process [8456] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:26:12,571 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:26:12,571 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:27:51,954 - uvicorn.error - INFO - Started server process [12944] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:27:51,954 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:27:51,954 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:27:53,066 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:27:53,169 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:27:53,169 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:27:53,170 - uvicorn.error - INFO - Finished server process [12944] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:28:15,876 - uvicorn.error - INFO - Started server process [14434] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:28:15,876 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:28:15,876 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:29:46,246 - logging_config - INFO - Root endpoint accessed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:37
+2025-09-07 20:29:46,247 - uvicorn.access - INFO - 127.0.0.1:57250 - "GET / HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:30:04,600 - uvicorn.access - INFO - 127.0.0.1:57337 - "POST /videos/upload HTTP/1.1" 401 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:30:27,808 - logging_config - INFO - Root endpoint accessed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:37
+2025-09-07 20:30:27,809 - uvicorn.access - INFO - 127.0.0.1:57465 - "GET / HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:32:44,294 - uvicorn.error - INFO - Started server process [25433] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:32:44,294 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:32:44,295 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:32:50,561 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:32:50,663 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:32:50,663 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:32:50,664 - uvicorn.error - INFO - Finished server process [25433] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:33:05,753 - uvicorn.error - INFO - Started server process [27035] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:33:05,753 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:33:05,754 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:33:10,705 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:33:10,807 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:33:10,808 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:33:10,809 - uvicorn.error - INFO - Finished server process [27035] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:33:24,566 - uvicorn.error - INFO - Started server process [27622] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:33:24,566 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:33:24,566 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:36:26,735 - uvicorn.access - INFO - 127.0.0.1:59358 - "POST /upload HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:38:18,484 - uvicorn.error - INFO - Started server process [39137] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:38:18,484 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:38:18,484 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:38:31,685 - uvicorn.access - INFO - 127.0.0.1:60022 - "POST /upload HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:39:55,118 - uvicorn.error - INFO - Started server process [42858] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:39:55,118 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:39:55,119 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:40:36,458 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:40:36,560 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:40:36,560 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:40:36,560 - uvicorn.error - INFO - Finished server process [42858] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:40:37,203 - uvicorn.error - INFO - Started server process [44332] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:40:37,203 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:40:37,203 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:40:45,797 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:40:45,899 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:40:45,900 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:40:45,900 - uvicorn.error - INFO - Finished server process [44332] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:40:46,592 - uvicorn.error - INFO - Started server process [44560] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:40:46,593 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:40:46,593 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:43:07,485 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:43:07,588 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:43:07,588 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:43:07,588 - uvicorn.error - INFO - Finished server process [44560] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:43:08,256 - uvicorn.error - INFO - Started server process [47629] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:43:08,256 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:43:08,257 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:43:15,476 - uvicorn.error - INFO - Started server process [48239] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:43:15,477 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:43:15,477 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:43:20,532 - uvicorn.access - INFO - 127.0.0.1:61856 - "OPTIONS /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:43:20,545 - uvicorn.access - INFO - 127.0.0.1:61856 - "POST /videos/upload HTTP/1.1" 422 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:44:24,593 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:44:24,694 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:44:24,694 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:44:24,694 - uvicorn.error - INFO - Finished server process [48239] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:44:27,155 - uvicorn.error - INFO - Started server process [49225] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:44:27,155 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:44:27,155 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:44:38,120 - services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:17
+2025-09-07 20:44:38,128 - services.video_service - INFO - Video created with ID: fd284cec-df6e-401f-96f0-61329b3794b7 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:29
+2025-09-07 20:44:38,128 - uvicorn.access - INFO - 127.0.0.1:62215 - "POST /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:44:39,468 - uvicorn.access - INFO - 127.0.0.1:62215 - "POST /videos/fd284cec-df6e-401f-96f0-61329b3794b7/track HTTP/1.1" 401 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:45:15,674 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:45:15,776 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:45:15,777 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:45:15,777 - uvicorn.error - INFO - Finished server process [49225] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:45:16,459 - uvicorn.error - INFO - Started server process [49878] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:45:16,459 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:45:16,459 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:45:23,331 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:45:23,433 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:45:23,433 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:45:23,433 - uvicorn.error - INFO - Finished server process [49878] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:45:23,990 - uvicorn.error - INFO - Started server process [49975] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:45:23,991 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:45:23,991 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:45:33,997 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:45:34,099 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:45:34,099 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:45:34,099 - uvicorn.error - INFO - Finished server process [49975] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:45:34,701 - uvicorn.error - INFO - Started server process [50101] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:45:34,701 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:45:34,702 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:45:38,841 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:45:38,943 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:45:38,943 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:45:38,943 - uvicorn.error - INFO - Finished server process [50101] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:45:39,551 - uvicorn.error - INFO - Started server process [50179] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:45:39,552 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:45:39,552 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:45:46,927 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:45:47,028 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:45:47,029 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:45:47,030 - uvicorn.error - INFO - Finished server process [50179] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:45:47,675 - uvicorn.error - INFO - Started server process [50273] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:45:47,675 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:45:47,676 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:45:51,824 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:45:51,925 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:45:51,926 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:45:51,926 - uvicorn.error - INFO - Finished server process [50273] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:45:52,589 - uvicorn.error - INFO - Started server process [50324] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:45:52,589 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:45:52,589 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:46:12,691 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:46:12,793 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:46:12,793 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:46:12,793 - uvicorn.error - INFO - Finished server process [50324] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:46:13,486 - uvicorn.error - INFO - Started server process [50581] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:46:13,486 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:46:13,488 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:46:14,398 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:46:14,499 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:46:14,500 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:46:14,500 - uvicorn.error - INFO - Finished server process [50581] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:46:20,660 - uvicorn.error - INFO - Started server process [50713] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:46:20,660 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:46:20,661 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:46:26,050 - services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:17
+2025-09-07 20:46:26,058 - services.video_service - INFO - Video created with ID: 882cc4da-90cb-4ee0-914b-074fa6689aa8 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:29
+2025-09-07 20:46:26,058 - uvicorn.access - INFO - 127.0.0.1:62756 - "POST /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:46:27,738 - services.video_service - INFO - Updating video 882cc4da-90cb-4ee0-914b-074fa6689aa8 status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:37
+2025-09-07 20:46:27,742 - services.video_service - INFO - Video 882cc4da-90cb-4ee0-914b-074fa6689aa8 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 20:46:29,227 - services.video_service - INFO - Updating video 882cc4da-90cb-4ee0-914b-074fa6689aa8 status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:37
+2025-09-07 20:46:29,228 - uvicorn.access - INFO - 127.0.0.1:62756 - "POST /videos/882cc4da-90cb-4ee0-914b-074fa6689aa8/track HTTP/1.1" 500 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:46:29,228 - uvicorn.error - ERROR - Exception in ASGI application
+ - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:431
+Traceback (most recent call last):
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/api/videos.py", line 96, in track_video
+    video_service.update_video_status(video_id, "processed")
+  File "/Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py", line 45, in update_video_status
+    video.processing_completed_at = datetime.utcnow()
+                                    ^^^^^^^^
+UnboundLocalError: cannot access local variable 'datetime' where it is not associated with a value
+2025-09-07 20:46:53,180 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:46:53,282 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:46:53,282 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:46:53,282 - uvicorn.error - INFO - Finished server process [50713] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:46:53,962 - uvicorn.error - INFO - Started server process [51183] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:46:53,962 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:46:53,962 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:46:58,717 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:46:58,819 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:46:58,819 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:46:58,820 - uvicorn.error - INFO - Finished server process [51183] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:46:59,447 - uvicorn.error - INFO - Started server process [51261] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:46:59,447 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:46:59,447 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:47:34,733 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:47:34,835 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:47:34,835 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:47:34,835 - uvicorn.error - INFO - Finished server process [51261] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:47:35,408 - uvicorn.error - INFO - Started server process [51667] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:47:35,409 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:47:35,409 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:47:36,520 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:47:36,621 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:47:36,621 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:47:36,622 - uvicorn.error - INFO - Finished server process [51667] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:47:39,520 - uvicorn.error - INFO - Started server process [51772] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:47:39,521 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:47:39,522 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:47:44,460 - services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-07 20:47:44,467 - services.video_service - INFO - Video created with ID: 2e95b344-4c03-41bc-a167-59737b84553b - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-07 20:47:44,468 - uvicorn.access - INFO - 127.0.0.1:63119 - "POST /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:47:45,495 - services.video_service - INFO - Updating video 2e95b344-4c03-41bc-a167-59737b84553b status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 20:47:45,501 - services.video_service - INFO - Video 2e95b344-4c03-41bc-a167-59737b84553b status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 20:47:46,979 - services.video_service - INFO - Updating video 2e95b344-4c03-41bc-a167-59737b84553b status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 20:47:46,980 - services.video_service - INFO - Video 2e95b344-4c03-41bc-a167-59737b84553b status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 20:47:46,980 - uvicorn.access - INFO - 127.0.0.1:63119 - "POST /videos/2e95b344-4c03-41bc-a167-59737b84553b/track HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:47:48,992 - uvicorn.access - INFO - 127.0.0.1:63119 - "GET /videos/2e95b344-4c03-41bc-a167-59737b84553b/trajectory HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:48:37,109 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:48:37,211 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:48:37,211 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:48:37,211 - uvicorn.error - INFO - Finished server process [51772] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:48:38,043 - uvicorn.error - INFO - Started server process [52529] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:48:38,043 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:48:38,044 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:48:50,674 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:48:50,776 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:48:50,776 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:48:50,776 - uvicorn.error - INFO - Finished server process [52529] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:48:51,500 - uvicorn.error - INFO - Started server process [52670] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:48:51,501 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:48:51,501 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:49:27,991 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:49:28,091 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:49:28,091 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:49:28,091 - uvicorn.error - INFO - Finished server process [52670] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:49:28,731 - uvicorn.error - INFO - Started server process [53107] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:49:28,731 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:49:28,731 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:49:31,161 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:49:31,262 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:49:31,262 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:49:31,262 - uvicorn.error - INFO - Finished server process [53107] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:49:33,414 - uvicorn.error - INFO - Started server process [53208] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:49:33,414 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:49:33,416 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:49:38,824 - services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-07 20:49:38,831 - services.video_service - INFO - Video created with ID: 5d502c47-cd99-49fd-b0fb-7a256634dc86 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-07 20:49:38,831 - uvicorn.access - INFO - 127.0.0.1:63653 - "POST /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:49:39,952 - services.video_service - INFO - Updating video 5d502c47-cd99-49fd-b0fb-7a256634dc86 status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 20:49:39,956 - services.video_service - INFO - Video 5d502c47-cd99-49fd-b0fb-7a256634dc86 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 20:49:39,960 - services.video_service - INFO - Updating video 5d502c47-cd99-49fd-b0fb-7a256634dc86 status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 20:49:39,963 - services.video_service - INFO - Video 5d502c47-cd99-49fd-b0fb-7a256634dc86 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 20:49:39,963 - uvicorn.access - INFO - 127.0.0.1:63653 - "POST /videos/5d502c47-cd99-49fd-b0fb-7a256634dc86/track HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:49:41,972 - uvicorn.access - INFO - 127.0.0.1:63653 - "GET /videos/5d502c47-cd99-49fd-b0fb-7a256634dc86/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:49:42,018 - uvicorn.access - INFO - 127.0.0.1:63653 - "GET /videos/5d502c47-cd99-49fd-b0fb-7a256634dc86/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:49:42,021 - uvicorn.access - INFO - 127.0.0.1:63671 - "GET /videos/5d502c47-cd99-49fd-b0fb-7a256634dc86/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:51:38,040 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:51:38,143 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:51:38,143 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:51:38,143 - uvicorn.error - INFO - Finished server process [53208] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:51:39,070 - uvicorn.error - INFO - Started server process [54693] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:51:39,070 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:51:39,070 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:52:36,679 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 20:52:36,781 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 20:52:36,781 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 20:52:36,781 - uvicorn.error - INFO - Finished server process [54693] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 20:52:37,488 - uvicorn.error - INFO - Started server process [55373] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 20:52:37,489 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 20:52:37,489 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 20:53:27,420 - uvicorn.access - INFO - 127.0.0.1:64739 - "GET /videos/5d502c47-cd99-49fd-b0fb-7a256634dc86/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:53:27,422 - uvicorn.access - INFO - 127.0.0.1:64741 - "GET /videos/5d502c47-cd99-49fd-b0fb-7a256634dc86/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 20:58:45,832 - uvicorn.error - INFO - Started server process [66765] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 20:58:45,833 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 20:58:45,833 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 20:59:05,263 - uvicorn.error - INFO - Started server process [68000] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 20:59:05,264 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 20:59:05,264 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 21:00:32,599 - uvicorn.error - INFO - Started server process [70607] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 21:00:32,600 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 21:00:32,600 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 21:01:06,540 - uvicorn.error - INFO - Started server process [72096] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:01:06,540 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:01:06,540 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:04:25,533 - uvicorn.error - INFO - Started server process [76717] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:04:25,533 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:04:25,534 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:04:35,364 - uvicorn.access - INFO - 127.0.0.1:51730 - "OPTIONS /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:04:35,412 - src.services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-07 21:04:35,421 - src.services.video_service - INFO - Video created with ID: 75f6ce67-850a-449c-97d0-3c89cf249351 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-07 21:04:35,421 - uvicorn.access - INFO - 127.0.0.1:51730 - "POST /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:04:36,578 - src.services.video_service - INFO - Updating video 75f6ce67-850a-449c-97d0-3c89cf249351 status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 21:04:36,582 - src.services.video_service - INFO - Video 75f6ce67-850a-449c-97d0-3c89cf249351 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 21:04:36,588 - src.services.video_service - INFO - Updating video 75f6ce67-850a-449c-97d0-3c89cf249351 status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 21:04:36,590 - src.services.video_service - INFO - Video 75f6ce67-850a-449c-97d0-3c89cf249351 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 21:04:36,591 - uvicorn.access - INFO - 127.0.0.1:51730 - "POST /videos/75f6ce67-850a-449c-97d0-3c89cf249351/track HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:04:36,591 - uvicorn.access - INFO - 127.0.0.1:51736 - "GET /uploads/undefined HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:04:38,604 - uvicorn.access - INFO - 127.0.0.1:51730 - "GET /videos/75f6ce67-850a-449c-97d0-3c89cf249351/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:04:38,660 - uvicorn.access - INFO - 127.0.0.1:51730 - "GET /videos/75f6ce67-850a-449c-97d0-3c89cf249351/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:04:38,663 - uvicorn.access - INFO - 127.0.0.1:51730 - "GET /videos/75f6ce67-850a-449c-97d0-3c89cf249351/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:05:59,243 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 21:05:59,345 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 21:05:59,345 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:05:59,345 - uvicorn.error - INFO - Finished server process [76717] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 21:06:00,112 - uvicorn.error - INFO - Started server process [77859] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:06:00,112 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:06:00,112 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:06:11,026 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 21:06:11,127 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 21:06:11,127 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:06:11,127 - uvicorn.error - INFO - Finished server process [77859] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 21:06:11,863 - uvicorn.error - INFO - Started server process [78002] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:06:11,864 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:06:11,864 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:06:17,731 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 21:06:17,832 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 21:06:17,833 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:06:17,833 - uvicorn.error - INFO - Finished server process [78002] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 21:06:18,509 - uvicorn.error - INFO - Started server process [78076] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:06:18,509 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:06:18,509 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:08:37,102 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 21:08:37,203 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 21:08:37,204 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:08:37,205 - uvicorn.error - INFO - Finished server process [78076] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 21:08:47,002 - uvicorn.error - INFO - Started server process [80724] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 21:08:47,002 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 21:08:47,002 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 21:10:32,372 - uvicorn.error - INFO - Started server process [83007] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 21:10:32,372 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 21:10:32,372 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 21:20:07,015 - uvicorn.error - INFO - Started server process [92005] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 21:20:07,016 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 21:20:07,016 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 21:21:04,729 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:258
+2025-09-07 21:21:04,840 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:67
+2025-09-07 21:21:04,849 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:21:04,849 - uvicorn.error - INFO - Finished server process [92005] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:92
+2025-09-07 21:21:13,548 - uvicorn.error - INFO - Started server process [92812] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:21:13,548 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:21:13,549 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:21:19,875 - uvicorn.access - INFO - 127.0.0.1:56761 - "OPTIONS /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:21:19,923 - src.services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-07 21:21:19,931 - src.services.video_service - INFO - Video created with ID: 69387df3-bacc-467f-b3b7-635ed17a3b23 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-07 21:21:19,931 - uvicorn.access - INFO - 127.0.0.1:56761 - "POST /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:21:21,031 - src.services.video_service - INFO - Updating video 69387df3-bacc-467f-b3b7-635ed17a3b23 status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 21:21:21,035 - src.services.video_service - INFO - Video 69387df3-bacc-467f-b3b7-635ed17a3b23 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 21:21:21,046 - src.services.video_service - INFO - Updating video 69387df3-bacc-467f-b3b7-635ed17a3b23 status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 21:21:21,051 - src.services.video_service - INFO - Video 69387df3-bacc-467f-b3b7-635ed17a3b23 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 21:21:21,051 - uvicorn.access - INFO - 127.0.0.1:56761 - "POST /videos/69387df3-bacc-467f-b3b7-635ed17a3b23/track HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:21:23,067 - uvicorn.access - INFO - 127.0.0.1:56761 - "GET /videos/69387df3-bacc-467f-b3b7-635ed17a3b23/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:21:23,125 - uvicorn.access - INFO - 127.0.0.1:56761 - "GET /videos/69387df3-bacc-467f-b3b7-635ed17a3b23/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:21:23,130 - uvicorn.access - INFO - 127.0.0.1:56761 - "GET /videos/69387df3-bacc-467f-b3b7-635ed17a3b23/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:21:23,132 - uvicorn.access - INFO - 127.0.0.1:56782 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:21:23,700 - uvicorn.access - INFO - 127.0.0.1:56761 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,242 - uvicorn.access - INFO - 127.0.0.1:57151 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,254 - uvicorn.access - INFO - 127.0.0.1:57153 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,262 - uvicorn.access - INFO - 127.0.0.1:57155 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,272 - uvicorn.access - INFO - 127.0.0.1:57157 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,279 - uvicorn.access - INFO - 127.0.0.1:57159 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,291 - uvicorn.access - INFO - 127.0.0.1:57161 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,295 - uvicorn.access - INFO - 127.0.0.1:57163 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,304 - uvicorn.access - INFO - 127.0.0.1:57165 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,312 - uvicorn.access - INFO - 127.0.0.1:57167 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:22:46,320 - uvicorn.access - INFO - 127.0.0.1:57169 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:23:58,584 - uvicorn.access - INFO - 127.0.0.1:57527 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:24:03,107 - uvicorn.access - INFO - 127.0.0.1:57552 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:24:19,245 - uvicorn.access - INFO - 127.0.0.1:57636 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:25:41,201 - uvicorn.access - INFO - 127.0.0.1:58011 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:25:52,858 - uvicorn.access - INFO - 127.0.0.1:58070 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:26:10,176 - uvicorn.access - INFO - 127.0.0.1:58155 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:26:21,009 - uvicorn.access - INFO - 127.0.0.1:58206 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:30:22,237 - uvicorn.error - INFO - Started server process [812] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:30:22,237 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:30:22,237 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:33:11,673 - uvicorn.error - INFO - Started server process [6377] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:33:11,673 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:33:11,673 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:33:17,327 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 21:33:17,439 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 21:33:17,439 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:33:17,439 - uvicorn.error - INFO - Finished server process [6377] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 21:36:10,160 - uvicorn.error - INFO - Started server process [10116] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:36:10,160 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:36:10,160 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:36:32,088 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 21:36:32,190 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 21:36:32,190 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:36:32,190 - uvicorn.error - INFO - Finished server process [10116] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 21:36:41,877 - uvicorn.error - INFO - Started server process [11030] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:36:41,878 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:36:41,878 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:40:57,729 - uvicorn.error - INFO - Started server process [15945] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:40:57,729 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:40:57,730 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:41:05,928 - uvicorn.access - INFO - 127.0.0.1:62493 - "OPTIONS /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:41:05,997 - src.services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-07 21:41:06,007 - src.services.video_service - INFO - Video created with ID: 5058791d-42de-4471-bfdc-df4c63249183 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-07 21:41:06,007 - uvicorn.access - INFO - 127.0.0.1:62493 - "POST /videos/upload HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:41:06,973 - src.services.video_service - INFO - Updating video 5058791d-42de-4471-bfdc-df4c63249183 status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 21:41:06,977 - src.services.video_service - INFO - Video 5058791d-42de-4471-bfdc-df4c63249183 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 21:41:06,985 - src.services.video_service - INFO - Updating video 5058791d-42de-4471-bfdc-df4c63249183 status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 21:41:06,988 - src.services.video_service - INFO - Video 5058791d-42de-4471-bfdc-df4c63249183 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 21:41:06,988 - uvicorn.access - INFO - 127.0.0.1:62493 - "POST /videos/5058791d-42de-4471-bfdc-df4c63249183/track HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:41:09,002 - uvicorn.access - INFO - 127.0.0.1:62493 - "GET /videos/5058791d-42de-4471-bfdc-df4c63249183/trajectory HTTP/1.1" 200 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:41:09,039 - uvicorn.access - INFO - 127.0.0.1:62507 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:41:10,466 - uvicorn.access - INFO - 127.0.0.1:62493 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-07 21:41:54,431 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 21:41:54,533 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 21:41:54,533 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:41:54,534 - uvicorn.error - INFO - Finished server process [15945] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 21:41:55,344 - uvicorn.error - INFO - Started server process [16707] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:41:55,344 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:41:55,344 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:42:04,040 - src.logging_config - INFO - Starting DRS Ball Tracking API server - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:51
+2025-09-07 21:42:14,249 - uvicorn.error - INFO - Shutting down - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 21:42:14,350 - uvicorn.error - INFO - Waiting for application shutdown. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 21:42:14,351 - uvicorn.error - INFO - Application shutdown complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:42:14,351 - uvicorn.error - INFO - Finished server process [16707] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 21:42:56,005 - src.logging_config - INFO - Starting DRS Ball Tracking API server - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:51
+2025-09-07 21:52:18,040 - uvicorn.error - INFO - Started server process [27872] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 21:52:18,041 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 21:52:18,042 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 21:52:35,118 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:258
+2025-09-07 21:52:35,221 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:67
+2025-09-07 21:52:35,222 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 21:52:35,222 - uvicorn.error - INFO - Finished server process [27872] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:92
+2025-09-07 21:53:00,252 - uvicorn.error - INFO - Started server process [29374] - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 21:53:00,252 - uvicorn.error - INFO - Waiting for application startup. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 21:53:00,252 - uvicorn.error - INFO - Application startup complete. - /Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 21:54:30,001 - uvicorn.error - INFO - Started server process [32589] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 21:54:30,001 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 21:54:30,006 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 21:58:40,477 - uvicorn.access - INFO - 127.0.0.1:51377 - "OPTIONS /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:481
+2025-09-07 21:58:40,513 - src.services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-07 21:58:40,525 - src.services.video_service - INFO - Video created with ID: 7a5e3f1a-c202-4ac0-b472-73003ce6716d - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-07 21:58:40,526 - uvicorn.access - INFO - 127.0.0.1:51377 - "POST /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:481
+2025-09-07 21:58:42,648 - src.services.video_service - INFO - Updating video 7a5e3f1a-c202-4ac0-b472-73003ce6716d status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 21:58:42,652 - src.services.video_service - INFO - Video 7a5e3f1a-c202-4ac0-b472-73003ce6716d status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 21:58:42,663 - src.services.video_service - INFO - Updating video 7a5e3f1a-c202-4ac0-b472-73003ce6716d status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-07 21:58:42,666 - src.services.video_service - INFO - Video 7a5e3f1a-c202-4ac0-b472-73003ce6716d status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-07 21:58:42,666 - uvicorn.access - INFO - 127.0.0.1:51377 - "POST /videos/7a5e3f1a-c202-4ac0-b472-73003ce6716d/track HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:481
+2025-09-07 21:58:44,681 - uvicorn.access - INFO - 127.0.0.1:51377 - "GET /videos/7a5e3f1a-c202-4ac0-b472-73003ce6716d/trajectory HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:481
+2025-09-07 21:58:44,719 - uvicorn.access - INFO - 127.0.0.1:51397 - "GET /uploads/Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:481
+2025-09-07 22:10:30,962 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:258
+2025-09-07 22:10:31,064 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:67
+2025-09-07 22:10:31,065 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 22:10:31,065 - uvicorn.error - INFO - Finished server process [32589] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:92
+2025-09-07 22:10:31,716 - uvicorn.error - INFO - Started server process [43759] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 22:10:31,716 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 22:10:31,717 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 22:10:42,737 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:258
+2025-09-07 22:10:42,838 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:67
+2025-09-07 22:10:42,839 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 22:10:42,839 - uvicorn.error - INFO - Finished server process [43759] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:92
+2025-09-07 22:10:43,401 - uvicorn.error - INFO - Started server process [43914] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:82
+2025-09-07 22:10:43,401 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:48
+2025-09-07 22:10:43,401 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:62
+2025-09-07 22:17:43,944 - uvicorn.error - INFO - Started server process [55923] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 22:17:43,944 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 22:17:43,945 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 22:17:48,996 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 22:17:49,097 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 22:17:49,098 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 22:17:49,098 - uvicorn.error - INFO - Finished server process [55923] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 22:17:49,656 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-07 22:17:49,661 - uvicorn.error - INFO - Started server process [56000] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 22:17:49,661 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 22:17:49,661 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-07 22:18:39,613 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-07 22:18:39,715 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-07 22:18:39,715 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-07 22:18:39,715 - uvicorn.error - INFO - Finished server process [56000] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-07 22:18:40,457 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-07 22:18:40,465 - uvicorn.error - INFO - Started server process [58081] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-07 22:18:40,465 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-07 22:18:40,467 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:23:38,221 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:23:38,229 - uvicorn.error - INFO - Started server process [98233] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:23:38,229 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:23:38,230 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:23:46,653 - uvicorn.access - INFO - 127.0.0.1:57995 - "OPTIONS /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:23:46,683 - services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-23 12:23:46,689 - services.video_service - INFO - Video created with ID: abe25d4d-c5aa-476b-98e9-88edf80614c6 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-23 12:23:46,689 - uvicorn.access - INFO - 127.0.0.1:57995 - "POST /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:23:47,918 - services.video_service - INFO - Updating video abe25d4d-c5aa-476b-98e9-88edf80614c6 status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-23 12:23:47,923 - services.video_service - INFO - Video abe25d4d-c5aa-476b-98e9-88edf80614c6 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-23 12:23:48,562 - services.video_service - INFO - Updating video abe25d4d-c5aa-476b-98e9-88edf80614c6 status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-23 12:23:48,564 - services.video_service - INFO - Video abe25d4d-c5aa-476b-98e9-88edf80614c6 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-23 12:23:48,565 - uvicorn.access - INFO - 127.0.0.1:57995 - "POST /videos/abe25d4d-c5aa-476b-98e9-88edf80614c6/track HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:23:50,580 - uvicorn.access - INFO - 127.0.0.1:57995 - "GET /videos/abe25d4d-c5aa-476b-98e9-88edf80614c6/trajectory HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:23:50,612 - uvicorn.access - INFO - 127.0.0.1:57997 - "GET /Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 404 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:25:16,769 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:25:16,871 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:25:16,872 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:25:16,873 - uvicorn.error - INFO - Finished server process [98233] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:25:17,750 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:25:17,752 - uvicorn.error - INFO - Started server process [98347] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:25:17,752 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:25:17,753 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:25:56,284 - logging_config - INFO - Root endpoint accessed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:50
+2025-09-23 12:25:56,285 - uvicorn.access - INFO - 127.0.0.1:58081 - "GET / HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:26:01,990 - uvicorn.access - INFO - 127.0.0.1:58086 - "HEAD /05847808-7a3e-4d1c-8147-0d038c73229f_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:26:17,961 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:26:18,063 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:26:18,063 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:26:18,063 - uvicorn.error - INFO - Finished server process [98347] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:26:18,896 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:26:18,898 - uvicorn.error - INFO - Started server process [98567] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:26:18,899 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:26:18,900 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:26:37,287 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:26:37,389 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:26:37,389 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:26:37,390 - uvicorn.error - INFO - Finished server process [98567] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:26:38,047 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:26:38,051 - uvicorn.error - INFO - Started server process [98574] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:26:38,051 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:26:38,052 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:27:46,468 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:27:46,569 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:27:46,569 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:27:46,569 - uvicorn.error - INFO - Finished server process [98574] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:28:15,408 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:28:15,412 - uvicorn.error - INFO - Started server process [98828] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:28:15,412 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:28:15,414 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:28:25,017 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:28:25,118 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:28:25,119 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:28:25,119 - uvicorn.error - INFO - Finished server process [98828] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:29:02,091 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:29:02,094 - uvicorn.error - INFO - Started server process [99028] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:29:02,094 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:29:02,096 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:29:23,358 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:29:23,460 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:29:23,461 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:29:23,461 - uvicorn.error - INFO - Finished server process [99028] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:29:41,235 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:29:41,238 - uvicorn.error - INFO - Started server process [99331] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:29:41,238 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:29:41,238 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:30:00,741 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:30:00,842 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:30:00,843 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:30:00,843 - uvicorn.error - INFO - Finished server process [99331] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:30:04,770 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:30:04,772 - uvicorn.error - INFO - Started server process [99513] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:30:04,772 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:30:04,773 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:30:13,062 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:30:13,164 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:30:13,164 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:30:13,164 - uvicorn.error - INFO - Finished server process [99513] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:31:26,902 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:31:26,905 - uvicorn.error - INFO - Started server process [99604] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:31:26,905 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:31:26,905 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:31:40,693 - services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-23 12:31:40,702 - services.video_service - INFO - Video created with ID: baf1d017-b670-4475-b1ae-d65863999fa7 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-23 12:31:40,702 - uvicorn.access - INFO - 127.0.0.1:58334 - "POST /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:31:41,673 - services.video_service - INFO - Updating video baf1d017-b670-4475-b1ae-d65863999fa7 status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-23 12:31:41,677 - services.video_service - INFO - Video baf1d017-b670-4475-b1ae-d65863999fa7 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-23 12:31:42,504 - services.video_service - INFO - Updating video baf1d017-b670-4475-b1ae-d65863999fa7 status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-23 12:31:42,505 - services.video_service - INFO - Video baf1d017-b670-4475-b1ae-d65863999fa7 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-23 12:31:42,506 - uvicorn.access - INFO - 127.0.0.1:58334 - "POST /videos/baf1d017-b670-4475-b1ae-d65863999fa7/track HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:31:44,520 - uvicorn.access - INFO - 127.0.0.1:58334 - "GET /videos/baf1d017-b670-4475-b1ae-d65863999fa7/trajectory HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:31:44,550 - uvicorn.access - INFO - 127.0.0.1:58336 - "GET /edc9407d-a5b8-4006-ab68-bce1b287cabe_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:35:06,428 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:35:06,430 - uvicorn.error - INFO - Started server process [238] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:35:06,431 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:35:06,431 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:35:12,085 - uvicorn.access - INFO - 127.0.0.1:58467 - "OPTIONS /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:35:12,116 - services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-23 12:35:12,120 - services.video_service - INFO - Video created with ID: 71b2f9d3-71e7-4a3f-a90b-c69da78fc470 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-23 12:35:12,120 - uvicorn.access - INFO - 127.0.0.1:58467 - "POST /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:35:13,110 - services.video_service - INFO - Updating video 71b2f9d3-71e7-4a3f-a90b-c69da78fc470 status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-23 12:35:13,113 - services.video_service - INFO - Video 71b2f9d3-71e7-4a3f-a90b-c69da78fc470 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-23 12:35:13,930 - services.video_service - INFO - Updating video 71b2f9d3-71e7-4a3f-a90b-c69da78fc470 status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-23 12:35:13,931 - services.video_service - INFO - Video 71b2f9d3-71e7-4a3f-a90b-c69da78fc470 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-23 12:35:13,931 - uvicorn.access - INFO - 127.0.0.1:58467 - "POST /videos/71b2f9d3-71e7-4a3f-a90b-c69da78fc470/track HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:35:15,950 - uvicorn.access - INFO - 127.0.0.1:58467 - "GET /videos/71b2f9d3-71e7-4a3f-a90b-c69da78fc470/trajectory HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:35:16,001 - uvicorn.access - INFO - 127.0.0.1:58470 - "GET /ab3488fe-ee93-4105-ab8f-7c84419c6cca_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:35:49,209 - uvicorn.access - INFO - 127.0.0.1:58481 - "GET /ab3488fe-ee93-4105-ab8f-7c84419c6cca_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 304 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:36:35,080 - uvicorn.access - INFO - 127.0.0.1:58488 - "GET /ab3488fe-ee93-4105-ab8f-7c84419c6cca_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 304 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:37:32,053 - uvicorn.access - INFO - 127.0.0.1:58501 - "GET /ab3488fe-ee93-4105-ab8f-7c84419c6cca_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 304 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:37:47,673 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:37:47,774 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:37:47,775 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:37:47,775 - uvicorn.error - INFO - Finished server process [238] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:39:33,428 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:39:33,431 - uvicorn.error - INFO - Started server process [387] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:39:33,431 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:39:33,431 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:40:31,633 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:40:31,736 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:40:31,737 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:40:31,738 - uvicorn.error - INFO - Finished server process [387] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:40:32,471 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:40:32,476 - uvicorn.error - INFO - Started server process [421] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:40:32,477 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:40:32,478 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:40:38,438 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:40:38,539 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:40:38,539 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:40:38,539 - uvicorn.error - INFO - Finished server process [421] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:40:39,262 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:40:39,264 - uvicorn.error - INFO - Started server process [430] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:40:39,264 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:40:39,265 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:41:45,655 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:41:45,756 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:41:45,756 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:41:45,757 - uvicorn.error - INFO - Finished server process [430] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:41:46,503 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:41:46,506 - uvicorn.error - INFO - Started server process [455] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:41:46,507 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:41:46,514 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:41:53,187 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:41:53,288 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:41:53,289 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:41:53,289 - uvicorn.error - INFO - Finished server process [455] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:41:53,978 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:41:53,980 - uvicorn.error - INFO - Started server process [465] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:41:53,980 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:41:53,981 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:42:04,384 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:42:04,485 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:42:04,486 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:42:04,486 - uvicorn.error - INFO - Finished server process [465] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:42:05,105 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:42:05,108 - uvicorn.error - INFO - Started server process [474] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:42:05,108 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:42:05,108 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:42:23,601 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:42:23,703 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:42:23,703 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:42:23,703 - uvicorn.error - INFO - Finished server process [474] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:42:24,322 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:42:24,328 - uvicorn.error - INFO - Started server process [495] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:42:24,328 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:42:24,329 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:42:30,289 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:42:30,391 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:42:30,392 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:42:30,393 - uvicorn.error - INFO - Finished server process [495] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:42:31,049 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:42:31,055 - uvicorn.error - INFO - Started server process [514] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:42:31,055 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:42:31,058 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:44:46,113 - logging_config - WARNING - Database table creation failed (might already exist): (in table 'trajectories', column 'additional_data'): Compiler <sqlalchemy.dialects.sqlite.base.SQLiteTypeCompiler object at 0x102a8ec60> can't render element of type JSONB - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:23
+2025-09-23 12:44:46,121 - uvicorn.error - INFO - Started server process [1078] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:44:46,121 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:44:46,121 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:44:47,351 - uvicorn.access - INFO - 127.0.0.1:58657 - "GET /ab3488fe-ee93-4105-ab8f-7c84419c6cca_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 304 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:46:11,846 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:46:11,948 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:46:11,949 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:46:11,949 - uvicorn.error - INFO - Finished server process [1078] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:46:15,233 - logging_config - WARNING - Database table creation failed (might already exist): (in table 'trajectories', column 'additional_data'): Compiler <sqlalchemy.dialects.sqlite.base.SQLiteTypeCompiler object at 0x105ad28a0> can't render element of type JSONB - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:23
+2025-09-23 12:46:15,236 - uvicorn.error - INFO - Started server process [1432] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:46:15,236 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:46:15,236 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:46:30,186 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:46:30,288 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:46:30,290 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:46:30,290 - uvicorn.error - INFO - Finished server process [1432] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:46:34,388 - logging_config - WARNING - Database table creation failed (might already exist): (in table 'trajectories', column 'additional_data'): Compiler <sqlalchemy.dialects.sqlite.base.SQLiteTypeCompiler object at 0x102a61520> can't render element of type JSONB - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:23
+2025-09-23 12:46:34,393 - uvicorn.error - INFO - Started server process [1660] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:46:34,394 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:46:34,394 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:46:46,012 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:46:46,113 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:46:46,114 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:46:46,114 - uvicorn.error - INFO - Finished server process [1660] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:47:27,080 - logging_config - WARNING - Database table creation failed (might already exist): (in table 'trajectories', column 'additional_data'): Compiler <sqlalchemy.dialects.sqlite.base.SQLiteTypeCompiler object at 0x103bd87d0> can't render element of type JSONB - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:23
+2025-09-23 12:47:27,083 - uvicorn.error - INFO - Started server process [1956] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:47:27,083 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:47:27,084 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:47:27,090 - uvicorn.access - INFO - 127.0.0.1:58728 - "GET /docs HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:47:38,091 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:47:38,192 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:47:38,192 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:47:38,193 - uvicorn.error - INFO - Finished server process [1956] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:47:44,791 - logging_config - WARNING - Database table creation failed (might already exist): (in table 'trajectories', column 'additional_data'): Compiler <sqlalchemy.dialects.sqlite.base.SQLiteTypeCompiler object at 0x108e9b740> can't render element of type JSONB - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:23
+2025-09-23 12:47:44,794 - uvicorn.error - INFO - Started server process [2136] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:47:44,794 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:47:44,796 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:47:57,117 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:47:57,218 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:47:57,219 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:47:57,219 - uvicorn.error - INFO - Finished server process [2136] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:47:57,900 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:47:57,902 - uvicorn.error - INFO - Started server process [2145] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:47:57,902 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:47:57,902 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:48:00,327 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:48:00,428 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:48:00,429 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:48:00,429 - uvicorn.error - INFO - Finished server process [2145] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:48:25,752 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:48:25,754 - uvicorn.error - INFO - Started server process [2382] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:48:25,754 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:48:25,760 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:48:35,155 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:48:35,257 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:48:35,257 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:48:35,257 - uvicorn.error - INFO - Finished server process [2382] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:49:00,716 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:49:00,719 - uvicorn.error - INFO - Started server process [2460] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:49:00,719 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:49:00,720 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:49:09,208 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:49:09,310 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:49:09,310 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:49:09,310 - uvicorn.error - INFO - Finished server process [2460] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:51:08,779 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:51:08,784 - uvicorn.error - INFO - Started server process [2667] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:51:08,784 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:51:08,784 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:51:19,301 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:51:19,403 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:51:19,403 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:51:19,403 - uvicorn.error - INFO - Finished server process [2667] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:52:56,241 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:52:56,246 - uvicorn.error - INFO - Started server process [2823] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:52:56,246 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:52:56,247 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:53:03,279 - uvicorn.access - INFO - 127.0.0.1:58849 - "OPTIONS /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:53:03,312 - services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-23 12:53:03,316 - services.video_service - INFO - Video created with ID: 52b950ec-c0fc-49b4-a6d0-de54e4ca4f02 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-23 12:53:03,316 - uvicorn.access - INFO - 127.0.0.1:58849 - "POST /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:53:04,518 - services.video_service - INFO - Updating video 52b950ec-c0fc-49b4-a6d0-de54e4ca4f02 status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-23 12:53:04,521 - services.video_service - INFO - Video 52b950ec-c0fc-49b4-a6d0-de54e4ca4f02 status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-23 12:53:04,523 - services.ball_tracking_service - INFO - Starting comprehensive ball tracking for: /Users/nirajkafle/Desktop/niraj/dev-projects/drs/uploads/85bfbbca-889f-482d-8e90-cb9d2d248bd4_Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:44
+2025-09-23 12:53:04,537 - services.ball_tracking_service - INFO - Video specs: 30.0 FPS, 209 frames, 1080x1920 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:60
+2025-09-23 12:53:04,537 - services.ball_tracking_service - INFO - First pass: Analyzing pitch and static elements... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:76
+2025-09-23 12:53:04,537 - services.ball_tracking_service - INFO - Analyzing pitch and static elements... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:167
+2025-09-23 12:53:04,754 - services.ball_tracking_service - INFO - Pitch analysis complete. Stumps: True, Boundaries: True - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:206
+2025-09-23 12:53:04,755 - services.ball_tracking_service - INFO - Second pass: Tracking dynamic elements... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:83
+2025-09-23 12:53:05,697 - services.ball_tracking_service - INFO - Processed 30/209 frames (14.4%). Ball detections: 30 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:126
+2025-09-23 12:53:06,574 - services.ball_tracking_service - INFO - Processed 60/209 frames (28.7%). Ball detections: 60 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:126
+2025-09-23 12:53:07,488 - services.ball_tracking_service - INFO - Processed 90/209 frames (43.1%). Ball detections: 90 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:126
+2025-09-23 12:53:07,725 - services.ball_tracking_service - INFO - Post-processing trajectory data... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:131
+2025-09-23 12:53:07,726 - services.ball_tracking_service - INFO - Post-processing: 98 -> 97 points - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:646
+2025-09-23 12:53:07,726 - services.ball_tracking_service - INFO - Performing LBW analysis... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:135
+2025-09-23 12:53:07,726 - services.ball_tracking_service - INFO - Ball tracking completed in 3.20s. Detected 97 ball positions. - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:139
+2025-09-23 12:53:07,727 - uvicorn.access - INFO - 127.0.0.1:58849 - "POST /videos/52b950ec-c0fc-49b4-a6d0-de54e4ca4f02/track HTTP/1.1" 500 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:53:07,728 - uvicorn.error - ERROR - Exception in ASGI application
+ - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:431
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    context = constructor(
+              ^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 1456, in _init_compiled
+    flattened_processors[key](compiled_params[key])
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/sql/sqltypes.py", line 2717, in process
+    return json_serializer(value)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+TypeError: Object of type float32 is not JSON serializable
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py", line 426, in run_asgi
+    result = await app(  # type: ignore[func-returns-value]
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/uvicorn/middleware/proxy_headers.py", line 84, in __call__
+    return await self.app(scope, receive, send)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/fastapi/applications.py", line 1106, in __call__
+    await super().__call__(scope, receive, send)
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/applications.py", line 122, in __call__
+    await self.middleware_stack(scope, receive, send)
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/middleware/errors.py", line 184, in __call__
+    raise exc
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/middleware/errors.py", line 162, in __call__
+    await self.app(scope, receive, _send)
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/middleware/cors.py", line 91, in __call__
+    await self.simple_response(scope, receive, send, request_headers=headers)
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/middleware/cors.py", line 146, in simple_response
+    await self.app(scope, receive, send)
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 79, in __call__
+    raise exc
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/middleware/exceptions.py", line 68, in __call__
+    await self.app(scope, receive, sender)
+  File "/opt/miniconda3/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 20, in __call__
+    raise e
+  File "/opt/miniconda3/lib/python3.12/site-packages/fastapi/middleware/asyncexitstack.py", line 17, in __call__
+    await self.app(scope, receive, send)
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/routing.py", line 718, in __call__
+    await route.handle(scope, receive, send)
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/routing.py", line 276, in handle
+    await self.app(scope, receive, send)
+  File "/opt/miniconda3/lib/python3.12/site-packages/starlette/routing.py", line 66, in app
+    response = await func(request)
+               ^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/fastapi/routing.py", line 274, in app
+    raw_response = await run_endpoint_function(
+                   ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/fastapi/routing.py", line 191, in run_endpoint_function
+    return await dependant.call(**values)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/api/videos.py", line 110, in track_video
+    db.commit()
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1969, in commit
+    trans.commit(_to_root=True)
+  File "<string>", line 2, in commit
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1256, in commit
+    self._prepare_impl()
+  File "<string>", line 2, in _prepare_impl
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/state_changes.py", line 139, in _go
+    ret_value = fn(self, *arg, **kw)
+                ^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 1231, in _prepare_impl
+    self.session.flush()
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 4312, in flush
+    self._flush(objects)
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 4447, in _flush
+    with util.safe_reraise():
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/util/langhelpers.py", line 146, in __exit__
+    raise exc_value.with_traceback(exc_tb)
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/session.py", line 4408, in _flush
+    flush_context.execute()
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py", line 466, in execute
+    rec.execute(self)
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/unitofwork.py", line 642, in execute
+    util.preloaded.orm_persistence.save_obj(
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py", line 93, in save_obj
+    _emit_insert_statements(
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/orm/persistence.py", line 1226, in _emit_insert_statements
+    result = connection.execute(
+             ^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1416, in execute
+    return meth(
+           ^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/sql/elements.py", line 516, in _execute_on_connection
+    return connection._execute_clauseelement(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1639, in _execute_clauseelement
+    ret = self._execute_context(
+          ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1820, in _execute_context
+    self._handle_dbapi_exception(
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 2343, in _handle_dbapi_exception
+    raise sqlalchemy_exception.with_traceback(exc_info[2]) from e
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/engine/base.py", line 1814, in _execute_context
+    context = constructor(
+              ^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/engine/default.py", line 1456, in _init_compiled
+    flattened_processors[key](compiled_params[key])
+  File "/opt/miniconda3/lib/python3.12/site-packages/sqlalchemy/sql/sqltypes.py", line 2717, in process
+    return json_serializer(value)
+           ^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/__init__.py", line 231, in dumps
+    return _default_encoder.encode(obj)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/encoder.py", line 200, in encode
+    chunks = self.iterencode(o, _one_shot=True)
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/encoder.py", line 258, in iterencode
+    return _iterencode(o, 0)
+           ^^^^^^^^^^^^^^^^^
+  File "/opt/miniconda3/lib/python3.12/json/encoder.py", line 180, in default
+    raise TypeError(f'Object of type {o.__class__.__name__} '
+sqlalchemy.exc.StatementError: (builtins.TypeError) Object of type float32 is not JSON serializable
+[SQL: INSERT INTO trajectories (id, video_id, points, timestamps, confidence_score, ball_detected, additional_data) VALUES (?, ?, ?, ?, ?, ?, ?) RETURNING created_at]
+[parameters: [{'points': [{'x': -0.062643096, 'y': 1.7437499, 'z': 0.046590906, 't': 0.0, 'confidence': 0.5098114482205517}, {'x': -0.15038733, 'y': 3.372686, 'z':  ... (48142 characters truncated) ... 1000, 'height_m': 1.5, 'angle_rad': 0.2617993877991494}}}, 'video_id': '52b950ec-c0fc-49b4-a6d0-de54e4ca4f02', 'confidence_score': 0.5382520212357752}]]
+2025-09-23 12:53:07,765 - uvicorn.access - INFO - 127.0.0.1:58851 - "GET /85bfbbca-889f-482d-8e90-cb9d2d248bd4_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:53:38,484 - uvicorn.access - INFO - 127.0.0.1:58857 - "GET /85bfbbca-889f-482d-8e90-cb9d2d248bd4_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 304 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 12:54:19,779 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:54:19,880 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:54:19,880 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:54:19,880 - uvicorn.error - INFO - Finished server process [2823] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:54:20,584 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:54:20,587 - uvicorn.error - INFO - Started server process [2928] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:54:20,587 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:54:20,587 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:54:58,590 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 12:54:58,691 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 12:54:58,691 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 12:54:58,691 - uvicorn.error - INFO - Finished server process [2928] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 12:54:59,339 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 12:54:59,344 - uvicorn.error - INFO - Started server process [2946] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 12:54:59,345 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 12:54:59,345 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 12:55:48,142 - uvicorn.access - INFO - 127.0.0.1:58888 - "GET /docs HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:04:27,182 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:04:27,185 - uvicorn.error - INFO - Started server process [4063] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:04:27,185 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:04:27,185 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:04:27,853 - uvicorn.access - INFO - 127.0.0.1:59010 - "GET /85bfbbca-889f-482d-8e90-cb9d2d248bd4_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 304 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:04:33,250 - uvicorn.access - INFO - 127.0.0.1:59019 - "OPTIONS /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:04:33,281 - services.video_service - INFO - Creating video for user test-user-id: Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:18
+2025-09-23 13:04:33,287 - services.video_service - INFO - Video created with ID: 8349aa2c-aae9-493a-9127-da77490223fb - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:30
+2025-09-23 13:04:33,287 - uvicorn.access - INFO - 127.0.0.1:59019 - "POST /videos/upload HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:04:34,389 - services.video_service - INFO - Updating video 8349aa2c-aae9-493a-9127-da77490223fb status to: processing - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-23 13:04:34,393 - services.video_service - INFO - Video 8349aa2c-aae9-493a-9127-da77490223fb status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-23 13:04:34,394 - services.ball_tracking_service - INFO - Starting comprehensive ball tracking for: /Users/nirajkafle/Desktop/niraj/dev-projects/drs/uploads/4fcdf877-47c0-4389-9605-f5dc464ba049_Umpire's POV Net Cricket 🏏  #shorts #cricket #cricketlover - Ajay Dhiman (1080p, h264).mp4 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:44
+2025-09-23 13:04:34,421 - services.ball_tracking_service - INFO - Video specs: 30.0 FPS, 209 frames, 1080x1920 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:60
+2025-09-23 13:04:34,421 - services.ball_tracking_service - INFO - First pass: Analyzing pitch and static elements... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:76
+2025-09-23 13:04:34,421 - services.ball_tracking_service - INFO - Analyzing pitch and static elements... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:172
+2025-09-23 13:04:34,649 - services.ball_tracking_service - INFO - Pitch analysis complete. Stumps: True, Boundaries: True - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:211
+2025-09-23 13:04:34,649 - services.ball_tracking_service - INFO - Second pass: Tracking dynamic elements... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:83
+2025-09-23 13:04:35,620 - services.ball_tracking_service - INFO - Processed 30/209 frames (14.4%). Ball detections: 30 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:126
+2025-09-23 13:04:36,528 - services.ball_tracking_service - INFO - Processed 60/209 frames (28.7%). Ball detections: 60 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:126
+2025-09-23 13:04:37,426 - services.ball_tracking_service - INFO - Processed 90/209 frames (43.1%). Ball detections: 90 - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:126
+2025-09-23 13:04:37,716 - services.ball_tracking_service - INFO - Post-processing trajectory data... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:131
+2025-09-23 13:04:37,718 - services.ball_tracking_service - INFO - Post-processing: 98 -> 97 points - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:651
+2025-09-23 13:04:37,718 - services.ball_tracking_service - INFO - Performing LBW analysis... - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:135
+2025-09-23 13:04:37,718 - services.ball_tracking_service - INFO - Ball tracking completed in 3.32s. Detected 97 ball positions. - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/ball_tracking_service.py:139
+2025-09-23 13:04:37,728 - services.video_service - INFO - Updating video 8349aa2c-aae9-493a-9127-da77490223fb status to: processed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:38
+2025-09-23 13:04:37,729 - services.video_service - INFO - Video 8349aa2c-aae9-493a-9127-da77490223fb status updated successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/services/video_service.py:47
+2025-09-23 13:04:37,729 - uvicorn.access - INFO - 127.0.0.1:59019 - "POST /videos/8349aa2c-aae9-493a-9127-da77490223fb/track HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:04:39,762 - uvicorn.access - INFO - 127.0.0.1:59019 - "GET /videos/8349aa2c-aae9-493a-9127-da77490223fb/trajectory HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:04:39,811 - uvicorn.access - INFO - 127.0.0.1:59021 - "GET /4fcdf877-47c0-4389-9605-f5dc464ba049_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:05:35,733 - uvicorn.access - INFO - 127.0.0.1:59028 - "GET /4fcdf877-47c0-4389-9605-f5dc464ba049_Umpire%27s%20POV%20Net%20Cricket%20%F0%9F%8F%8F%20%20%23shorts%20%23cricket%20%23cricketlover%20-%20Ajay%20Dhiman%20%281080p%2C%20h264%29.mp4 HTTP/1.1" 304 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:08:03,187 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:08:03,288 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:08:03,288 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:08:03,288 - uvicorn.error - INFO - Finished server process [4063] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:08:04,110 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:08:04,112 - uvicorn.error - INFO - Started server process [4193] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:08:04,112 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:08:04,112 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:08:09,771 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:08:09,872 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:08:09,872 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:08:09,872 - uvicorn.error - INFO - Finished server process [4193] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:08:10,581 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:08:10,584 - uvicorn.error - INFO - Started server process [4204] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:08:10,584 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:08:10,586 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:08:19,683 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:08:19,785 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:08:19,785 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:08:19,785 - uvicorn.error - INFO - Finished server process [4204] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:08:20,448 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:08:20,450 - uvicorn.error - INFO - Started server process [4220] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:08:20,450 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:08:20,452 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:08:37,935 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:08:38,036 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:08:38,037 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:08:38,037 - uvicorn.error - INFO - Finished server process [4220] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:08:38,682 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:08:38,685 - uvicorn.error - INFO - Started server process [4233] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:08:38,685 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:08:38,688 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:08:48,592 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:08:48,693 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:08:48,693 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:08:48,693 - uvicorn.error - INFO - Finished server process [4233] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:08:49,368 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:08:49,374 - uvicorn.error - INFO - Started server process [4245] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:08:49,374 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:08:49,379 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:08:56,254 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:08:56,356 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:08:56,356 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:08:56,356 - uvicorn.error - INFO - Finished server process [4245] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:08:57,023 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:08:57,035 - uvicorn.error - INFO - Started server process [4255] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:08:57,035 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:08:57,036 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:09:02,392 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:09:02,493 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:09:02,494 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:09:02,494 - uvicorn.error - INFO - Finished server process [4255] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:09:03,154 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:09:03,160 - uvicorn.error - INFO - Started server process [4262] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:09:03,160 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:09:03,162 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:12:29,859 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:12:29,962 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:12:29,963 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:12:29,963 - uvicorn.error - INFO - Finished server process [4262] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:12:30,834 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:12:30,837 - uvicorn.error - INFO - Started server process [4477] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:12:30,837 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:12:30,837 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:12:39,029 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:12:39,130 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:12:39,131 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:12:39,131 - uvicorn.error - INFO - Finished server process [4477] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:12:39,881 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:12:39,883 - uvicorn.error - INFO - Started server process [4494] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:12:39,883 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:12:39,886 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:12:51,307 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:12:51,408 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:12:51,408 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:12:51,408 - uvicorn.error - INFO - Finished server process [4494] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:12:52,117 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:12:52,120 - uvicorn.error - INFO - Started server process [4508] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:12:52,120 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:12:52,120 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
+2025-09-23 13:16:30,741 - uvicorn.access - INFO - 127.0.0.1:59193 - "GET /docs HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:21:01,843 - uvicorn.access - INFO - 127.0.0.1:59356 - "GET /videos/ HTTP/1.1" 404 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:21:06,983 - logging_config - INFO - Root endpoint accessed - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:50
+2025-09-23 13:21:06,983 - uvicorn.access - INFO - 127.0.0.1:59361 - "GET / HTTP/1.1" 200 - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/protocols/http/httptools_impl.py:496
+2025-09-23 13:21:55,607 - uvicorn.error - INFO - Shutting down - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:264
+2025-09-23 13:21:55,709 - uvicorn.error - INFO - Waiting for application shutdown. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:65
+2025-09-23 13:21:55,710 - uvicorn.error - INFO - Application shutdown complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:76
+2025-09-23 13:21:55,710 - uvicorn.error - INFO - Finished server process [4508] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:86
+2025-09-23 13:21:56,588 - logging_config - INFO - Database tables created successfully - /Users/nirajkafle/Desktop/niraj/dev-projects/drs/backend/src/main.py:21
+2025-09-23 13:21:56,591 - uvicorn.error - INFO - Started server process [5379] - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/server.py:76
+2025-09-23 13:21:56,591 - uvicorn.error - INFO - Waiting for application startup. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:46
+2025-09-23 13:21:56,591 - uvicorn.error - INFO - Application startup complete. - /opt/miniconda3/lib/python3.12/site-packages/uvicorn/lifespan/on.py:60
