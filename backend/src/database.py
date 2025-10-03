@@ -1,10 +1,7 @@
 from sqlalchemy import create_engine
 from sqlalchemy.ext.declarative import declarative_base
 from sqlalchemy.orm import sessionmaker
-import os
-
-# Use SQLite for development, PostgreSQL for production
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./drs.db")
+from config import DATABASE_URL
 
 engine = create_engine(
     DATABASE_URL,

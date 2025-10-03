@@ -10,7 +10,7 @@ from models.video import Video
 from models.trajectory import Trajectory
 from models.review_session import ReviewSession
 from logging_config import setup_logging
-import os
+from config import CORS_ORIGINS, UPLOAD_DIR, HOST, PORT
 
 # Setup logging
 logger = setup_logging()
@@ -20,21 +20,25 @@ try:
     Base.metadata.create_all(bind=engine)
     logger.info("Database tables created successfully")
 except Exception as e:
-    logger.warning(f"Database table creation failed (might already exist): {e}")
+    logger.error(f"Database table creation failed: {e}")
 
-app = FastAPI(title="DRS Ball Tracking API", version="1.0.0")
+app = FastAPI(
+    title="DRS Ball Tracking API",
+    version="1.0.0",
+    description="Cricket Decision Review System with Ball Tracking"
+)
 
-# Mount static files
-uploads_path = os.path.join(os.path.dirname(__file__), "../../uploads")
-if os.path.exists(uploads_path):
-    app.mount("/uploads", StaticFiles(directory=uploads_path), name="uploads")
+# Mount static files for video uploads
+if UPLOAD_DIR.exists():
+    app.mount("/uploads", StaticFiles(directory=str(UPLOAD_DIR)), name="uploads")
+    logger.info(f"Mounted uploads directory: {UPLOAD_DIR}")
 else:
-    logger.warning(f"Uploads directory not found at: {uploads_path}")
+    logger.warning(f"Uploads directory not found: {UPLOAD_DIR}")
 
 # CORS middleware
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["http://localhost:3000"],  # React dev server
+    allow_origins=CORS_ORIGINS,
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
@@ -48,9 +52,18 @@ app.include_router(auth_router, prefix="/auth", tags=["auth"])
 @app.get("/")
 async def root():
     logger.info("Root endpoint accessed")
-    return {"message": "DRS Ball Tracking API"}
+    return {
+        "message": "DRS Ball Tracking API",
+        "version": "1.0.0",
+        "status": "running"
+    }
+
+@app.get("/health")
+async def health():
+    """Health check endpoint"""
+    return {"status": "healthy"}
 
 if __name__ == "__main__":
     import uvicorn
-    logger.info("Starting DRS Ball Tracking API server")
-    uvicorn.run(app, host="0.0.0.0", port=8000)
+    logger.info(f"Starting DRS Ball Tracking API server on {HOST}:{PORT}")
+    uvicorn.run(app, host=HOST, port=PORT)
