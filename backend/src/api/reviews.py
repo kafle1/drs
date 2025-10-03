@@ -2,12 +2,13 @@ from fastapi import APIRouter, HTTPException, Depends
 from sqlalchemy.orm import Session
 from database import get_db
 from services.review_service import ReviewService
-from api.auth import get_current_user
+from api.auth import get_current_user_optional
 from models.user import User
 from pydantic import BaseModel
 from typing import List, Optional
-import uuid
+import logging
 
+logger = logging.getLogger(__name__)
 router = APIRouter()
 
 class DecisionModel(BaseModel):
@@ -24,45 +25,49 @@ class CreateReviewRequest(BaseModel):
 @router.post("/")
 async def create_review(
     request: CreateReviewRequest,
-    # current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_user_optional),
     db: Session = Depends(get_db)
 ):
+    """Create a new review for a video"""
     review_service = ReviewService(db)
-    # For testing purposes, use a default user_id
-    user_id = "test-user-id"
+    user_id = current_user.id if current_user else "anonymous"
 
-    review = review_service.create_review(
-        video_id=request.video_id,
-        user_id=user_id,
-        decisions=[decision.dict() for decision in request.decisions],
-        notes=request.notes
-    )
+    try:
+        review = review_service.create_review(
+            video_id=request.video_id,
+            user_id=user_id,
+            decisions=[decision.dict() for decision in request.decisions],
+            notes=request.notes
+        )
 
-    return {
-        "id": review.id,
-        "video_id": str(review.video_id),
-        "created_at": review.created_at
-    }
+        logger.info(f"Review created: {review.id} for video: {request.video_id}")
+
+        return {
+            "id": review.id,
+            "video_id": review.video_id,
+            "created_at": review.created_at.isoformat() if review.created_at else None
+        }
+    except Exception as e:
+        logger.error(f"Failed to create review: {e}")
+        raise HTTPException(status_code=500, detail=f"Failed to create review: {str(e)}")
 
 @router.get("/{review_id}")
 async def get_review(
     review_id: str,
-    # current_user: User = Depends(get_current_user),
+    current_user: User = Depends(get_current_user_optional),
     db: Session = Depends(get_db)
 ):
+    """Get a review by ID"""
     review_service = ReviewService(db)
     review = review_service.get_review(review_id)
+
     if not review:
         raise HTTPException(status_code=404, detail="Review not found")
 
-    # Check if review belongs to current user
-    # if review.user_id != current_user.id:
-    #     raise HTTPException(status_code=403, detail="Not authorized to access this review")
-
     return {
-        "id": str(review.id),
-        "video_id": str(review.video_id),
+        "id": review.id,
+        "video_id": review.video_id,
         "decisions": review.decisions,
         "notes": review.notes,
-        "created_at": review.created_at
+        "created_at": review.created_at.isoformat() if review.created_at else None
     }
