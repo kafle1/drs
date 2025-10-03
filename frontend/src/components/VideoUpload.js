@@ -1,24 +1,31 @@
 import React, { useState } from 'react';
-import { Button, Box, Typography, LinearProgress } from '@mui/material';
-import api from '../api/client';
+import { Button, Box, Typography, LinearProgress, Alert } from '@mui/material';
+import api, { MAX_UPLOAD_SIZE_MB } from '../api/client';
+
+const ALLOWED_FORMATS = ['mp4', 'mov', 'avi', 'mkv', 'webm'];
 
 const VideoUpload = ({ onVideoUploaded }) => {
   const [uploading, setUploading] = useState(false);
   const [progress, setProgress] = useState(0);
+  const [error, setError] = useState(null);
 
   const handleFileSelect = async (event) => {
     const file = event.target.files[0];
     if (!file) return;
 
+    setError(null);
+
     // Validate file type
-    if (!file.name.match(/\.(mp4|mov|avi)$/i)) {
-      alert('Please select a valid video file (MP4, MOV, AVI)');
+    const fileExt = file.name.split('.').pop().toLowerCase();
+    if (!ALLOWED_FORMATS.includes(fileExt)) {
+      setError(`Invalid file format. Supported: ${ALLOWED_FORMATS.join(', ').toUpperCase()}`);
       return;
     }
 
-    // Validate file size (500MB)
-    if (file.size > 500 * 1024 * 1024) {
-      alert('File size must be less than 500MB');
+    // Validate file size
+    const maxSize = MAX_UPLOAD_SIZE_MB * 1024 * 1024;
+    if (file.size > maxSize) {
+      setError(`File size must be less than ${MAX_UPLOAD_SIZE_MB}MB`);
       return;
     }
 
@@ -39,13 +46,15 @@ const VideoUpload = ({ onVideoUploaded }) => {
       });
 
       onVideoUploaded(response.data);
-      alert('Video uploaded successfully!');
     } catch (error) {
       console.error('Upload failed:', error);
-      alert('Upload failed. Please try again.');
+      const errorMsg = error.response?.data?.detail || 'Upload failed. Please try again.';
+      setError(errorMsg);
     } finally {
       setUploading(false);
       setProgress(0);
+      // Reset file input
+      event.target.value = '';
     }
   };
 
@@ -55,8 +64,14 @@ const VideoUpload = ({ onVideoUploaded }) => {
         Upload Video for Ball Tracking
       </Typography>
       <Typography variant="body2" color="textSecondary" gutterBottom>
-        Supported formats: MP4, MOV, AVI (max 500MB)
+        Supported formats: {ALLOWED_FORMATS.join(', ').toUpperCase()} (max {MAX_UPLOAD_SIZE_MB}MB)
       </Typography>
+
+      {error && (
+        <Alert severity="error" sx={{ mt: 2 }} onClose={() => setError(null)}>
+          {error}
+        </Alert>
+      )}
 
       <input
         accept="video/*"
